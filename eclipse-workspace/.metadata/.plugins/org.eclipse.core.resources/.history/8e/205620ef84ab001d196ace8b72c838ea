@@ -1,0 +1,13 @@
+package instituto;
+
+public class Profesor extends Persona{
+
+	public Profesor(String nombre, String asignaturas) {
+		super(nombre, asignaturas);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	
+	
+
+}

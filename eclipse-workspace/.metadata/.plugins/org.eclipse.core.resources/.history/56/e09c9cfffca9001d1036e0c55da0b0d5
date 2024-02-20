@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package conectarmysql;
+
+/**
+ * @author Alberto
+ *
+ */
+public class prueba {
+
+	/**
+	 * 
+	 */
+	public prueba() {
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+
+	}
+
+}

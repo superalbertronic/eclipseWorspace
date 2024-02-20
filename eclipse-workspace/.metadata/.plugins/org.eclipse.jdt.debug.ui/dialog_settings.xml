@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="175"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="185"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="80"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ejercicios/src&amp;lt;{sumador.java[sumador&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ejercicios/src&amp;lt;{Figura.java[Figura&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ejercicios/src&amp;lt;swing{Ejemplo1.java[Ejemplo1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=EntornoDatos/src&amp;lt;{Ejercicio1.java[Ejercicio1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=EntornoDatos/src&amp;lt;mvc{ProductoMain.java[ProductoMain&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=componentes/C:\/Users\/alber\/Downloads\/mysql-connector-java-5.1.15-bin.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=componentes/src&amp;lt;componentes{EjemploPersistencia.java[EjemploPersistencia&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Cenec/src&amp;lt;ficheros{CrearDirectorioYFicheros4.java[CrearDirectorioYFicheros4&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=javafxmaven/src\/main\/java&amp;lt;javafxmaven{EjercicioJavaFx1.java[EjercicioJavaFx1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ajavaxproyect/src&amp;lt;application{Main.java[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=conectarmysql/src&amp;lt;clases{CreacionBD.java[CreacionBD&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=conectarmysql2/src&amp;lt;conectarmysql{ConectarDb.java[ConectarDb&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ajavaxproyect/src&amp;lt;application{EjercicioSceneBuilder.java[EjercicioSceneBuilder&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=hello-javafx-maven-example-master/src\/main\/java&amp;lt;com.zenjava.examples.hellojfxmaven{HelloJavaFxAndMavenApp.java[HelloJavaFxAndMavenApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="573"/>
+			<item key="DIALOG_WIDTH" value="429"/>
+			<item key="DIALOG_X_ORIGIN" value="565"/>
+			<item key="DIALOG_Y_ORIGIN" value="241"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|8.830189|0|WINDOWS|1|-13|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="expressionHistory">
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="WIDTH" value="614"/>
+		<item key="HEIGHT" value="194"/>
+		<item key="SashWeightTree" value="500"/>
+		<item key="SashWeightDetails" value="500"/>
+	</section>
+	<section name="AddExceptionDialog">
+		<item key="caughtChecked" value="true"/>
+		<item key="uncaughtChecked" value="true"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.RUNTIME_CLASSPATH_ADVANCED_DIALOG">
+		<item key="DIALOG_X_ORIGIN" value="360"/>
+		<item key="DIALOG_Y_ORIGIN" value="329"/>
+		<item key="DIALOG_WIDTH" value="228"/>
+		<item key="DIALOG_HEIGHT" value="281"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="conditionHistory">
+	</section>
+</section>

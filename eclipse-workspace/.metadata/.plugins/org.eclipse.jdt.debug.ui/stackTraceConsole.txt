@@ -1,0 +1,23 @@
+Menú	Opción	Descripción
+File	New	Permite crear un nuevo proyecto, archivo o recurso en el entorno de desarrollo.
+File	Open	Abre un proyecto, archivo o recurso existente en Eclipse.
+File	Save	Guarda los cambios en el archivo actual.
+Edit	Undo	Deshace la última acción realizada en el editor.
+Edit	Redo	Rehace una acción que ha sido deshecha previamente.
+Edit	Copy	Copia el contenido seleccionado en el portapapeles.
+Source	Organize Imports	Organiza y gestiona las importaciones de clases en el código fuente.
+Source	Format	Aplica un formato consistente al código fuente para mejorar la legibilidad.
+Refactor	Rename	Permite cambiar el nombre de un elemento en el código y realiza cambios relacionados de manera automática.
+Refactor	Extract Method	Extrae parte del código a un nuevo método para reutilización o claridad.
+Navigate	Open Type	Permite buscar y abrir rápidamente una clase o tipo en el proyecto.
+Navigate	Open Resource	Abre un recurso o archivo específico dentro del proyecto.
+Search	Search	Inicia una búsqueda en el código fuente o en los archivos del proyecto.
+Search	Java Search	Realiza una búsqueda específica en el código fuente Java.
+Project	Build Project	Compila y construye el proyecto actual.
+Run	Run	Ejecuta la aplicación o proyecto actual.
+Run	Debug	Inicia el modo de depuración para rastrear y solucionar problemas en el código.
+Window	New Window	Abre una nueva ventana de Eclipse.
+Window	Perspective	Cambia entre diferentes perspectivas de Eclipse, como la perspectiva de Java, la perspectiva de Git, etc.
+Help	Eclipse Marketplace	Accede a Eclipse Marketplace para buscar e instalar complementos y extensiones.
+Help	Help	Accede a la ayuda y la documentación de Eclipse.
+Help	About Eclipse	Muestra información sobre la versión de Eclipse que estás utilizando.

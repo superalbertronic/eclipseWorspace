@@ -1,0 +1,59 @@
+package hibernate;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import hibernate.Fabricante;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import java.util.List;
+
+public class Controller {
+
+    @FXML
+    private TableView<Fabricante> tableViewFabricantes;
+
+    @FXML
+    private TableColumn<Fabricante, Integer> idColumn;
+
+    @FXML
+    private TableColumn<Fabricante, String> nombreColumn;
+
+    private SessionFactory sessionFactory;
+
+    public void inicializar() {
+        try {
+            sessionFactory = new Configuration().configure().buildSessionFactory();
+            idColumn.setCellValueFactory(cellData -> cellData.getValue().idProperty().asObject());
+            nombreColumn.setCellValueFactory(cellData -> cellData.getValue().nombreProperty());
+
+            cargarFabricantes();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void cargarFabricantes() {
+        try {
+            Session session = sessionFactory.openSession();
+            session.beginTransaction();
+
+            List<Fabricante> fabricantes = session.createQuery("from Fabricante", Fabricante.class).list();
+            tableViewFabricantes.setItems(FXCollections.observableArrayList(fabricantes));
+            System.out.println("Número de fabricantes cargados: " + fabricantes.size());
+
+            session.getTransaction().commit();
+            session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
+    private void cerrarConexion() {
+        sessionFactory.close();
+    }
+}

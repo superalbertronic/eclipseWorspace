@@ -1,0 +1,25 @@
+ public void crearBaseDeDatosEmpresa() {
+        Connection conn = null;
+        Statement stmt = null;
+
+        try {
+            conn = conexion.conectar();
+            stmt = conn.createStatement();
+
+            // Crea la base de datos "empresa" si no existe
+            String createDatabaseSQL = "CREATE DATABASE IF NOT EXISTS empresa";
+            stmt.execute(createDatabaseSQL);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } finally {
+                conexion.desconectar();
+            }
+        }
+    }

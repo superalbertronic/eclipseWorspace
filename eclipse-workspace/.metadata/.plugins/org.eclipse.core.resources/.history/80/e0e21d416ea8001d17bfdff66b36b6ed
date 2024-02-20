@@ -1,0 +1,24 @@
+package abstractainterface2;
+
+
+
+class Ropa extends Producto {
+    private String color;
+    
+    public Ropa(String nombre, String descripcion, double precio, String color) {
+        super(nombre, descripcion, precio);
+        this.color = color;
+    }
+    
+    @Override
+    public void MostrarInformacion() {
+    	super.MostrarInformacion();
+        System.out.println("Color: " + color);
+    }
+
+	@Override
+	public void SuCompra() {
+		// TODO Esbozo de método generado automáticamente
+		System.out.println("Ha comprado un electrodomestico, gracias");
+	}
+}

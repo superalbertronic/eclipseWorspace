@@ -1,0 +1,11 @@
+package abstractainterface;
+
+public class MainProducto {
+
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+		Libro producto=new Libro("El señor de los anillos","pedazo de libro",20.20,"Tolkien");
+	
+	}
+
+}

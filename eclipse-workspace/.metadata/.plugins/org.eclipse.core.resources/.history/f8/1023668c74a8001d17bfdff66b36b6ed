@@ -1,0 +1,31 @@
+package abstractainterface;
+
+
+
+class Librointerface implements Productointerface {
+    
+	private String nombre;
+	private String talla;
+	private String color;
+	private Double precio;
+	private String descripcion;
+    
+    
+    public Librointerface(String nombre, String descripcion, double precio, 
+    		String autor, String color, String talla) {
+        
+       
+    }
+    
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Descripcion: " + descripcion);
+        System.out.println("Precio: " + precio);
+        System.out.println("Autor: " + talla);
+        System.out.println("Autor: " + color);
+        
+        
+    }
+}
+

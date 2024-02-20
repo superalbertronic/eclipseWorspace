@@ -1,0 +1,21 @@
+package segundotrimestre;
+import java.util.ArrayList;
+
+abstract class contabilidad{
+	String descripcion;
+	int precio, unidades;
+	
+	
+	
+}
+
+
+
+public class ArrayListAbstract6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

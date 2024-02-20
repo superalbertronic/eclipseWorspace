@@ -1,0 +1,23 @@
+package abstractainterface;
+
+
+
+class Electrodomesticointerface implements Productointerface {
+    private String marca;
+    private String nombre;
+	private Double precio;
+	private String descripcion;
+    
+    public Electrodomesticointerface(String nombre, String descripcion, double precio, String marca) {
+       
+        this.marca = marca;
+    }
+    
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + marca);
+        System.out.println("Descripcion: " + descripcion);
+        System.out.println("Precio: " + precio);
+        System.out.println("Marca: " + marca);
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CrearBaseDeDatos.java&apos; to &apos;conectarmysql/src/tiendapc&apos;&#x0D;&#x0A;- Original project: &apos;conectarmysql&apos;&#x0D;&#x0A;- Destination element: &apos;conectarmysql/src/tiendapc&apos;&#x0D;&#x0A;- Original element: &apos;conectarmysql.CrearBaseDeDatos.java&apos;" description="Copy compilation unit" destination="/src&lt;tiendapc" element1="/src&lt;conectarmysql{CrearBaseDeDatos.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1698331308216" units="1" version="1.0"/>
+</session>

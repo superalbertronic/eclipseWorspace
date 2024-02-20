@@ -1,0 +1,38 @@
+package testeoalumnos;
+
+import java.util.Scanner;
+
+public class AngelNotas {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //definimos el array de las asignaturas
+        String[] asignaturas = {"Entorno","Programacion","Sistemas","Base de datos","Marcas"} ;
+        //ingresamos notas asignaturas
+        for (int i = 0; i < asignaturas.length; i++) {
+            System.out.print("Ingrese la nota de la asignatura " + asignaturas[i] + ":");
+            asignaturas[i] = sc.nextLine();
+        }
+
+        String [] resultados = calcularNotas(asignaturas);
+        for (int i = 0; i < asignaturas.length; i++) {
+            System.out.println("La nota de la asignatura  es: " + resultados[i]);
+        }
+        
+        
+    }
+  // metodo array con argumento array
+    public static String[] calcularNotas(String[] asignaturas) {
+    	String [] resultados=new String[asignaturas.length];
+        int[] notas = new int[asignaturas.length];
+        for (int i = 0; i < asignaturas.length; i++) {
+            if (notas[i]<5) {
+            	resultados[i]="Suspenso";
+            }else{
+            	resultados[i]="Aprobado";
+            }
+            		
+            		}
+        return resultados;
+    }
+}

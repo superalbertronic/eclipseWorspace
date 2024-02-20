@@ -1,0 +1,16 @@
+En Java, :: se utiliza como operador de referencia a método, lo que permite pasar una referencia a un método 
+en lugar de invocar el método directamente.
+
+Existen tres tipos de referencias a método en Java:
+
+    Referencia a método estático: Clase::metodoEstatico
+    Referencia a método de instancia de objeto existente: objetoExistente::metodoDeInstancia
+    Referencia a método de constructor: Clase::new
+
+En el ejemplo que proporcioné anteriormente, se utiliza Map.Entry::getKey 
+y Map.Entry::getValue, que son referencias a métodos que se aplican a las entradas del Map. 
+Esto se debe a que en Java 8 y posteriores, el método collect() acepta un Collector
+ que permite crear un nuevo LinkedHashMap a partir de una secuencia de entradas del Map.
+
+Por lo tanto, en lugar de definir una función lambda para obtener la clave o el valor
+ de la entrada del Map, se puede utilizar la referencia a método getKey() o getValue() de Map.Entry.

@@ -1,0 +1,24 @@
+package instituto;
+
+public class Profesor extends Persona{
+
+	public Profesor(String nombre, String asignaturas,String apellidos, int dni) {
+		super(nombre, asignaturas, String apellidos, int dni);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	public void MostrarDatos() {
+		System.out.println("Usted es profesor " +getNombre()+ "apellidos " + 
+				getApellidos()+ "su dni "+ getDni() +" su asignatura es "+
+				getAsignaturas());
+		
+	};
+	   
+	public void Calendario() {
+		super.Calendario();
+		System.out.println("Bienvenido al curso señor profesor de Howards");
+		
+	}
+	
+
+}

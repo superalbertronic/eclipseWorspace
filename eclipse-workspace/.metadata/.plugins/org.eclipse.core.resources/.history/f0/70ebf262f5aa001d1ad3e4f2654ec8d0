@@ -1,0 +1,23 @@
+package conectarmysql;
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.SQLException;
+public class ConectarDb {
+	   //declaramos los diferentes objetos necesarios para nuestra conexión
+	   
+	   public static void main(String[] args) throws Exception  {
+	      Connection conn = null;
+	     try {
+	//Desde aquí se encarga del driver JDBC    
+	        // Class.forName("com.mysql.cj.jdbc.Driver");
+	         conn = DriverManager.getConnection("jdbc:mysql://localhost/empresa","root","");
+	         if (conn != null) {
+	            System.out.println("Conexión a base de datos Ok");
+	            conn.close();
+	         }
+	      }
+	      catch(SQLException e)                   
+	         {System.out.println("Error en la conexión "+e.getMessage());  
+	      }
+	 }
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Alberto\WORKSPACE1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\HospitalApp irene"/>
+			<item value="C:\Users\alber\Downloads\parcial2t\parcial2t"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\ExamenParcialAC borja"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\ExamenParcialAC borja\ExamenParcialAC"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\parcial2t MARIA"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\HospitalApp raul"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\ExamenParcialAAdarioD"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\ExamenAccesoADatos MAXIMILIAN"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\2º DAM\ACCESO A DATOS\EXAMENES\examenes parciales 2º trimestre\Examen0802 daniel"/>
+			<item value="C:\Users\alber\eclipse-workspace\examenesparciales2trim"/>
+			<item value="C:\Users\alber\Downloads\EXAMENES PARCIAL 2º TRIM ACCESO A DATOS\HospitalAppAlvaroGuerrero\HospitalApp"/>
+			<item value="C:\Users\alber\Downloads\EXAMENES PARCIAL 2º TRIM ACCESO A DATOS\HospitalApp ignacio"/>
+			<item value="C:\Users\alber\Downloads\hello-javafx-maven-example-master"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\eclipse-workspace\calculadoraBasica"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\mates"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\mates.zip"/>
+			<item value="C:\Users\alber\OneDrive\DEPARTAMENTO DE INFORMATICA\CENEC\anaya1"/>
+			<item value="C:\Users\Alberto\eclipse-workspace"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wb.rcp.project.wizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.fx.ide"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+			<item value="org.eclipse.wb"/>
+			<item value="org.eclipse.wb/org.eclipse.wb.rcp"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_Y_ORIGIN" value="142"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="668"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="617"/>
+		<item key="DIALOG_Y_ORIGIN" value="337"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

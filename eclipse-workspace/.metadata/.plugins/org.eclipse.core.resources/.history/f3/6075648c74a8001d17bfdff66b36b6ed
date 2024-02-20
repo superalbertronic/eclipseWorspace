@@ -1,0 +1,26 @@
+package abstractainterface;
+
+
+
+class Ropainterface implements Productointerface {
+    
+	private String nombre;
+	private String autor;
+	private Double precio;
+	private String descripcion;
+    
+    
+    public Ropainterface(String nombre, String descripcion, double precio, String autor) {
+        
+       
+    }
+    
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Descripcion: " + descripcion);
+        System.out.println("Precio: " + precio);
+        System.out.println("Autor: " + autor);
+    }
+}
+

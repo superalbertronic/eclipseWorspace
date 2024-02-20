@@ -1,0 +1,9 @@
+package instituto;
+
+public abstract class Persona {
+
+	public Persona() {
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+}

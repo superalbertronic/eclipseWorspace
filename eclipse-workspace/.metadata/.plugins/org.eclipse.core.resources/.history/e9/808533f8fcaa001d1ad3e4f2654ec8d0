@@ -1,0 +1,9 @@
+package proyectmavenalberto.mavenselenium;
+
+public class AmazonSelenium {
+
+	public AmazonSelenium() {
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+}

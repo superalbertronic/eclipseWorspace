@@ -1,0 +1,40 @@
+package jdialog;
+import javax.swing.*;
+
+public class EjercicioJDialog0 extends JDialog {
+
+    public EjercicioJDialog0(JFrame frame) {
+        super(frame, "¡Hola, mundo!", true);
+
+        // Crear una etiqueta con un mensaje simple
+        JLabel label = new JLabel("¡Hola, este es un JDialog básico!");
+
+        // Agregar la etiqueta al contenido del JDialog
+        add(label);
+
+        // Configurar el tamaño del JDialog automáticamente
+        pack();
+
+        // Centrar el JDialog en la pantalla
+        setLocationRelativeTo(null);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Ejemplo JDialog Básico");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+            JButton mostrarDialogoButton = new JButton("Mostrar JDialog");
+            mostrarDialogoButton.addActionListener(e -> {
+                DialogoBasico dialog = new DialogoBasico(frame);
+                dialog.setVisible(true);
+            });
+
+            frame.getContentPane().add(mostrarDialogoButton);
+
+            frame.setSize(300, 200);
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+        });
+    }
+}

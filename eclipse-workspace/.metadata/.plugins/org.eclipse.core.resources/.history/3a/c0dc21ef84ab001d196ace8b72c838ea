@@ -1,0 +1,20 @@
+package instituto;
+
+public class Alumno extends Persona{
+
+	public Alumno(String nombre, String asignaturas) {
+		super(nombre, asignaturas);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	public void MostrarDatos() {
+		System.out.println("Usted es " +getNombre);
+		
+	};
+	   
+	public void Calendario() {
+		System.out.println("El calendario escolar del curso 2022-2023");
+		
+	}
+	
+}

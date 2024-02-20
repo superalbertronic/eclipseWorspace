@@ -1,0 +1,13 @@
+package instituto;
+
+public class Trabajador extends Persona{
+
+	public Trabajador(String nombre, String asignaturas) {
+		super(nombre, asignaturas);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	
+	
+
+}

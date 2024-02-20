@@ -1,0 +1,9 @@
+package instituto;
+
+public class Alumno {
+
+	public Alumno() {
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+}

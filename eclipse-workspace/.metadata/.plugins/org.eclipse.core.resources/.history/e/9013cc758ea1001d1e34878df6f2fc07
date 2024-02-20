@@ -1,0 +1,21 @@
+package abstractavehiculos;
+
+public class VehiculosMain {
+	Coche renault = new Coche();
+    renault.color = "rojo";
+    renault.ruedas = 4;
+    renault.modelo = "Renault";
+    renault.cilindrada = 1600;
+    renault.acelerar();
+    renault.frenar();
+
+    Bicicleta mountainBike = new Bicicleta();
+    mountainBike.color = "verde";
+    mountainBike.ruedas = 2;
+    mountainBike.modelo = "Mountain Bike";
+    mountainBike.tipo = "montaña";
+    mountainBike.acelerar();
+    mountainBike.frenar();
+  }
+
+}

@@ -1,0 +1,14 @@
+package arrays;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Array1Test {
+
+	@Test
+	void testMain() {
+		fail("No implementado aun");
+	}
+
+}

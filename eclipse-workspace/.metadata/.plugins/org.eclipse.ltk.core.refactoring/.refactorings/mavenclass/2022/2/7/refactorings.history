@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Mover el elemento «libs» a «Hibernateproyect»&#x0D;&#x0A;- Proyecto original: «mavenclass»&#x0D;&#x0A;- Elemento destino: «Hibernateproyect»&#x0D;&#x0A;- Elemento original: «libs»&#x0D;&#x0A;- Actualizar referencias a elemento refactorizado" description="Mover carpeta" destination="=Hibernateproyect" element1="libs" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1645009169972" units="0" version="1.0"/>
+</session>

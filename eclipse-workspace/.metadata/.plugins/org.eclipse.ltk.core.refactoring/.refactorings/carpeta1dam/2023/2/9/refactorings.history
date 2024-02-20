@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copiar elemento «LinkedHashSetEjemplo.java» a «colecciones.LinkedHashSetEjemplo.java»&#x0D;&#x0A;- Proyecto original: «carpeta1dam»&#x0D;&#x0A;- Elemento destino: «colecciones.LinkedHashSetEjemplo.java»&#x0D;&#x0A;- Elemento original: «colecciones.LinkedHashSetEjemplo.java»" description="Copiar unidad de compilacion" destination="/src&lt;colecciones{LinkedHashSetEjemplo.java" element1="/src&lt;colecciones{LinkedHashSetEjemplo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677520908067" units="1" version="1.0"/>
+</session>

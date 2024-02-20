@@ -1,0 +1,35 @@
+-- Crear la base de datos HospitalApp
+CREATE DATABASE IF NOT EXISTS HospitalApp;
+USE HospitalApp;
+
+-- Crear la tabla "pacientes"
+CREATE TABLE pacientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255),
+    apellidos VARCHAR(255),
+    ciudad VARCHAR(255),
+    direccion VARCHAR(255),
+    telefono VARCHAR(20),
+    edad INT,
+    historial VARCHAR(255)
+);
+
+
+-- Crear la tabla "medicos"
+CREATE TABLE IF NOT EXISTS medicos (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellidos VARCHAR(50),
+    especialidad VARCHAR(50)
+);
+
+-- Crear la tabla "citas"
+CREATE TABLE IF NOT EXISTS citas (
+    id INT PRIMARY KEY,
+    id_paciente INT,
+    id_medico INT,
+    fecha DATE,
+    hora TIME,
+    FOREIGN KEY (id_paciente) REFERENCES pacientes(id),
+    FOREIGN KEY (id_medico) REFERENCES medicos(id)
+);

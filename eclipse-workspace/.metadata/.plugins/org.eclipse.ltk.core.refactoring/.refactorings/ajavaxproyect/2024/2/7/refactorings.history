@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Ejercicio3&apos; to &apos;javafxmaven/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;ajavaxproyect&apos;&#x0D;&#x0A;- Destination element: &apos;javafxmaven/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;ajavaxproyect/src/Ejercicio3&apos;" description="Copy package" destination="=javafxmaven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;Ejercicio3" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1707731118942" version="1.0"/>
+</session>

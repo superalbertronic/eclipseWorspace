@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copiar elemento «Conectar.java» a «bbddproyect/src»&#x0D;&#x0A;- Proyecto original: «ejercicios»&#x0D;&#x0A;- Elemento destino: «bbddproyect/src»&#x0D;&#x0A;- Elemento original: «bbdd.Conectar.java»" description="Copiar unidad de compilacion" destination="=bbddproyect/src" element1="/src&lt;bbdd{Conectar.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1645446283750" units="1" version="1.0"/>
+</session>

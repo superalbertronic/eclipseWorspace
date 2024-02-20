@@ -1,0 +1,18 @@
+package abstractavehiculo3;
+
+public class Moto extends Vehiculo{
+
+	public Moto(String modelo, String color) {
+		super(modelo, color);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+	@Override
+	public void MostrarDatos() {
+		   System.out.println(" El modelo de la moto es "+getModelo()+ " el color es "+getColor());
+		   System.out.println("Gracias por comprar la motomami");
+	   
+	}
+	   
+	
+	
+}

@@ -1,0 +1,20 @@
+package instituto;
+
+public class InstitutoMain {
+
+	
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+		Profesor profe=new Profesor("Alberto","Programación");
+		Alumno alu=new Alumno("Juan ","Base de datos");
+		system.out.println("proresor");
+		profe.MostrarDatos();
+		profe.Calendario();
+		System.out.println("alumno");
+		alu.MostrarDatos();
+		alu.Calendario();
+		
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package conectarmysql;
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Types;
+import java.sql.ResultSet;
+
+public class InvocarProcedimiento4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Connection conn = null;
+	        CallableStatement cstmt = null;
+
+	        try {
+	            conn = DriverManager.getConnection("jdbc:mysql://localhost/phonelandcenec", "root", "");
+	            double precio=100.0;
+	            // Llamar al procedimiento almacenado
+	            cstmt = conn.prepareCall("call CalculaPrecioDescuentoIvaTota(?,?,?,?,?)");
+	          
+	            // introducirmos los valores necesarios
+	            cstmt.setDouble(1, precio); //1 es el primer valor del argumento del procedimiento
+	            for (int i=2; i<6;i++) {
+	            	cstmt.registerOutParameter(i, Types.DECIMAL);
+	            }
+	            
+	            // Ejecutar el procedimiento
+	            cstmt.execute();
+
+	            // Obtener los resultados si el procedimiento devuelve algo
+	            
+	            double descuento=cstmt.getInt(2);//el parametro a devolver
+	            double precio_descuento=cstmt.getInt(3);//el parametro a devolver
+	            double iva=cstmt.getInt(4);//el parametro a devolver
+	            double total=cstmt.getInt(5);//el parametro a devolver
+	           
+	            
+	            System.out.println("Procedimiento invocado");
+	            System.out.println("El importe sin iva es "+precio);
+	            System.out.println("El descuento es "+descuento);
+	            System.out.println("El precio_descuento es "+precio_descuento);
+	            System.out.println("El total es "+total);
+	           conn.close();
+	        } catch (SQLException e) {
+	            e.printStackTrace();
+	        }
+	}
+}

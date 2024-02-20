@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;modelo.fabricante&apos; to &apos;Fabricante&apos;&#x0D;&#x0A;- Original project: &apos;tiendaverregistros&apos;&#x0D;&#x0A;- Original element: &apos;modelo.fabricante&apos;&#x0D;&#x0A;- Renamed element: &apos;modelo.Fabricante&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;fabricante&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;modelo{fabricante.java[fabricante" matchStrategy="1" name="Fabricante" qualified="false" references="true" similarDeclarations="false" stamp="1705053289276" textual="false" version="1.0"/>
+</session>

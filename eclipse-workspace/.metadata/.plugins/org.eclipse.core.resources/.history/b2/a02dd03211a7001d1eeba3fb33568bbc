@@ -1,0 +1,17 @@
+package abstractainterface;
+
+import java.math.BigDecimal;
+
+public class MainProducto {
+
+	public static void main(String[] args) {
+		Producto libro = new Libro("El Quijote", "Novela clásica de Miguel de Cervantes", 10.00, "Miguel de Cervantes");
+	    Producto electrodomestico = new Electrodomestico("Refrigerador", "Refrigerador de marca LG", 500, "LG");
+
+	    libro.mostrarInformacion();
+	    System.out.println();
+	    electrodomestico.mostrarInformacion();
+	
+	}
+
+}

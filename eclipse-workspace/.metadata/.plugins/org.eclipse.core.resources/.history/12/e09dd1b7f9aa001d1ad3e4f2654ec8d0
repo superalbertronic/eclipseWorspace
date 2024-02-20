@@ -1,0 +1,33 @@
+package conectarmysql;
+
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.ResultSet;
+import java.sql.Statement;
+public class MostrarDatos {
+   //declaramos los diferentes objetos necesarios para nuestra conexión
+	
+    public static void main(String[] args) throws Exception{
+      Connection conn = null;
+      try {
+    	  conn = DriverManager.getConnection("jdbc:mysql://localhost/empresa","root","");
+    	 
+    	  ResultSet rs = stmt.executeQuery(sql);
+    	  while (rs.next()) {
+    	    int id = rs.getInt("id");
+    	    String nif = rs.getString("nif");
+    	    String nombre = rs.getString("nombre");
+    	    int edad = rs.getInt("edad");
+    	    System.out.println("id: " + id + ", nif: " + nif + 
+    	                       ", nombre: " + nombre + ", edad: " + edad);
+    	  }
+    	  rs.close();
+    	  conn.close();
+    	  stmt.close();
+    	} catch(SQLException e)                   
+    		         {System.out.println("Error en la conexión "+e.getMessage());  
+    		      }
+
+}
+}

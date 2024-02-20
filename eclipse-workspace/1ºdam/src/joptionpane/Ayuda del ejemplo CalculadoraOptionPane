@@ -1,0 +1,18 @@
+JOptionPane.showOptionDialog(
+    parentComponent, 
+    message, 
+    title, 
+    optionType, 
+    messageType, 
+    icon, 
+    options, 
+    initialValue
+)
+parentComponent: El componente padre en el que se mostrará el cuadro de diálogo. Puede ser null si no se desea especificar un componente padre.
+message: El mensaje o pregunta que se mostrará en el cuadro de diálogo.
+title: El título del cuadro de diálogo.
+optionType: El tipo de opciones que se mostrarán en el cuadro de diálogo. Puede ser DEFAULT_OPTION, YES_NO_OPTION, YES_NO_CANCEL_OPTION, OK_CANCEL_OPTION.
+messageType: El tipo de mensaje que se mostrará en el cuadro de diálogo. Puede ser ERROR_MESSAGE, INFORMATION_MESSAGE, WARNING_MESSAGE, QUESTION_MESSAGE, PLAIN_MESSAGE.
+icon: El icono que se mostrará en el cuadro de diálogo. Puede ser null si no se desea especificar un icono.
+options: Un arreglo de objetos que representa las opciones que se mostrarán en el cuadro de diálogo.
+initialValue: El valor inicial seleccionado en el cuadro de diálogo. Puede ser null si no se desea especificar un valor inicial.

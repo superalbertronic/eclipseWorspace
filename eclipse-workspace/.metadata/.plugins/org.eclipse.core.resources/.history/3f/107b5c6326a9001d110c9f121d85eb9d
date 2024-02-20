@@ -1,0 +1,18 @@
+package abstractavehiculo3;
+
+public class VehiculoMain {
+
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+     Coche coche1=new Coche("Seat","Rojo", "1200");
+     Moto moto=new Moto("Honda","verde","1300");
+     Moto moto1=new Moto("Yamaha","rojo","1300");
+     Bicicleta bici=new Bicicleta("AVG","Azul");
+     
+     coche1.MostrarDatos();	
+	 moto.MostrarDatos();
+	 moto1.MostrarDatos();
+	 bici.MostrarDatos();
+   		
+	}
+}

@@ -1,0 +1,10 @@
+package componentesbasicos;
+import javax.swing.*;
+public class EjercicioWindowBuilder1 extends  JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

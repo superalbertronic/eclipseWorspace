@@ -1,0 +1,21 @@
+package instituto;
+
+public class Alumno extends Persona{
+
+	public Alumno(String nombre, String asignaturas) {
+		super(nombre, asignaturas);
+		// TODO Esbozo de constructor generado automáticamente
+	}
+
+	public void MostrarDatos() {
+		System.out.println("Usted es alumno " +getNombre()+ " su asignatura es "+getAsignaturas());
+		
+	};
+	   
+	public void Calendario() {
+		super.Calendario();
+		System.out.println("Bienvenido al curso Alumno de Gryfindor");
+		
+	}
+	
+}

@@ -1,0 +1,33 @@
+package proyectmavenalberto.mavenselenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AmazonSelenium {
+  public static void main(String[] args) {
+    System.setProperty("webdriver.gecko.driver", "c:/geckodriver/geckodriver.exe");
+    WebDriver driver = new FirefoxDriver();
+    driver.get("https://www.amazon.com");
+    WebElement signInLink = driver.findElement(By.cssSelector("a[href='/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0']"));
+    signInLink.click();
+    WebElement createAccountLink = driver.findElement(By.cssSelector("a[href='/ap/register/create-account?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0']"));
+    createAccountLink.click();
+    WebElement nameField = driver.findElement(By.id("ap_customer_name"));
+    nameField.sendKeys("Your Name");
+    WebElement emailField = driver.findElement(By.id("ap_email"));
+    emailField.sendKeys("youremail@example.com");
+    WebElement passwordField = driver.findElement(By.id("ap_password"));
+    passwordField.sendKeys("yourpassword");
+
+    WebElement passwordCheckField = driver.findElement(By.id("ap_password_check"));
+    passwordCheckField.sendKeys("yourpassword");
+    WebElement submitButton = driver.findElement(By.id("continue"));
+    submitButton.click();
+    
+    // Aquí puede agregar cualquier validación adicional para verificar que la cuenta se haya creado correctamente.
+    
+    driver.quit();
+  }
+}

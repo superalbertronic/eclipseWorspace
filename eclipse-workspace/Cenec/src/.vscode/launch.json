@@ -1,0 +1,111 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Sauron",
+            "request": "launch",
+            "mainClass": "Sauron",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio6h",
+            "request": "launch",
+            "mainClass": "primertrimestre.Ejercicio6h",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "Ramdon2",
+            "request": "launch",
+            "mainClass": "primertrimestre.Ramdon2",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "Random1",
+            "request": "launch",
+            "mainClass": "primertrimestre.Random1",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "Random3",
+            "request": "launch",
+            "mainClass": "primertrimestre.Random3",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEjercicio1",
+            "request": "launch",
+            "mainClass": "primertrimestre.ScannerEjercicio1",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEjercicio2",
+            "request": "launch",
+            "mainClass": "primertrimestre.ScannerEjercicio2",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEjercicio3",
+            "request": "launch",
+            "mainClass": "primertrimestre.ScannerEjercicio3",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEjercicio4",
+            "request": "launch",
+            "mainClass": "primertrimestre.ScannerEjercicio4",
+            "projectName": "src_9d748b75"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEjercicio5",
+            "request": "launch",
+            "mainClass": "primertrimestre.ScannerEjercicio5",
+            "projectName": "src_9d748b75"
+        }
+    ]
+}

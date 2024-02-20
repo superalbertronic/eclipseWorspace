@@ -1,0 +1,17 @@
+package abstractavehiculos;
+
+public class Coche {
+	int cilindrada;
+
+	  @Override
+	  void acelerar() {
+	    System.out.println("Acelerando Coche");
+	  }
+
+	  @Override
+	  void frenar() {
+	    System.out.println("Frenando Coche");
+	  }
+	}
+
+}

@@ -1,0 +1,23 @@
+package conectarmysql;
+
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Prueba {
+
+    public static void main(String[] args) throws ParseException {
+        // Obtener la fecha actual
+        String fecha= "2023/05/05";
+
+        // Formato de fecha esperado
+        SimpleDateFormat cambiarFormatoFecha = new SimpleDateFormat("yyyy/MM/dd");
+
+        // Convertir la cadena a un objeto Date
+        String ResultadoFecha = cambiarFormatoFecha.parse(ResultadoFecha);
+
+        // Imprimir la fecha
+        System.out.println("Fecha: " + cambiarFormatoFecha.format(ResultadoFecha));
+    }
+}

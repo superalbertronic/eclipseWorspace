@@ -1,0 +1,32 @@
+package instituto;
+
+public abstract class Persona {
+	private String nombre;
+	private String asignaturas;
+	public Persona(String nombre, String asignaturas) {
+		super();
+		this.nombre = nombre;
+		this.asignaturas = asignaturas;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getAsignaturas() {
+		return asignaturas;
+	}
+	public void setAsignaturas(String asignaturas) {
+		this.asignaturas = asignaturas;
+	}
+	
+	abstract public void MostrarDatos();
+	   
+	public void Calendario() {
+		System.out.println("El calendario escolar del curso 2022-2023");
+		
+	}
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;preparedStatement&apos; in &apos;proyectoxmlmaven.Main.main(...)&apos; to &apos;ps&apos;&#x0D;&#x0A;- Original project: &apos;proyectoxmlmaven&apos;&#x0D;&#x0A;- Original element: &apos;proyectoxmlmaven.Main.main(String[]).preparedStatement&apos;&#x0D;&#x0A;- Renamed element: &apos;preparedStatement&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;preparedStatement&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;proyectoxmlmaven{Main.java[Main~main~\[QString;@preparedStatement!2290!2366!2308!2324!QPreparedStatement;!0!false" name="ps" references="true" stamp="1707844417314" version="1.0"/>
+</session>
