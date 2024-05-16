@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" 
+xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="universidad.Controller">
+   <items>
+      <AnchorPane prefHeight="398.0" prefWidth="195.0">
+         <children>
+            <Button id="btnAñadir" fx:id="btnAñadir" layoutX="55.0" layoutY="350.0" mnemonicParsing="false" onAction="#agregarEstudiante" text="Añadir" />
+            <Button id="btnBorrar" fx:id="btnBorrar" layoutX="159.0" layoutY="350.0" mnemonicParsing="false" onAction="#borrarEstudiante" text="Borrar" textFill="WHITE" />
+            <Button id="btnMostrar" fx:id="btnMostrar" layoutX="159.0" layoutY="350.0" mnemonicParsing="false" onAction="#mostrarEstudiantes" text="mostrar" textFill="WHITE" />
+            <Label layoutX="9.0" layoutY="33.0" text="Fecha de inscripción" />
+            <Label layoutX="26.0" layoutY="83.0" text="Nombre" />
+            <Label layoutX="19.0" layoutY="130.0" text="Correo" />
+            <Label layoutX="26.0" layoutY="182.0" text="Teléfono" />
+            <Label layoutX="19.0" layoutY="230.0" text="Curso" />
+            <TextField id="nombreTF" fx:id="nombreTF" layoutX="89.0" layoutY="79.0" />
+            <TextField id="correoTF" fx:id="correoTF" layoutX="84.0" layoutY="127.0" />
+            <TextField id="telefonoTF" fx:id="telefonoTF" layoutX="89.0" layoutY="179.0" />
+            <TextField id="cursoTF" fx:id="cursoTF" layoutX="84.0" layoutY="227.0" />
+            <DatePicker id="fechaInscripcionDP" fx:id="fechaInscripcionDP" layoutX="106.0" layoutY="29.0" prefHeight="10.0" prefWidth="138.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="tableViewEstudiante" layoutX="-1.0" layoutY="48.0" prefHeight="350.0" prefWidth="338.0">
+              <columns>
+                <TableColumn fx:id="nombreColumn" prefWidth="59.200010657310486" text="Nombre" />
+                <TableColumn fx:id="correoColumn" prefWidth="83.20001983642578" text="Correo" />
+                <TableColumn fx:id="telefonoColumn" prefWidth="109.5999755859375" text="Teléfono" />
+                <TableColumn fx:id="cursoColumn" prefWidth="46.39990234375" text="Curso" />
+                <TableColumn fx:id="fechaInscripcionColumn" prefWidth="142.4000244140625" text="Fecha de Inscripción" />
+              </columns>
+            </TableView>
+            <Label layoutX="102.0" layoutY="21.0" text="Listado de Estudiantes" />
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

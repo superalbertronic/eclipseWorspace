@@ -1,0 +1,31 @@
+/* Estilo para los campos de texto */
+.text-field {
+    -fx-background-color: #f2f2f2; /* Color de fondo */
+    -fx-border-color: #ccc; /* Color del borde */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #4CAF50; /* Color de fondo */
+    -fx-text-fill: white; /* Color del texto */
+    -fx-font-size: 12px; /* Tamaño de la fuente */
+    -fx-padding: 5px 10px; /* Espacio interno */
+    -fx-border-radius: 5px; /* Radio de borde */
+    -fx-background-radius: 5px; /* Radio de fondo */
+}
+
+/* Estilo para los botones cuando se presionan */
+.button:pressed {
+    -fx-background-color: #45a049; /* Color de fondo al presionar */
+}
+
+/* Estilo para los botones cuando se colocan el mouse sobre ellos */
+.button:hover {
+    -fx-background-color: #45a049; /* Color de fondo al colocar el mouse */
+}
+.nombreTextField {
+	-fx-background-color: #45a049; /* Color de fondo al colocar el mouse */
+	
+	
+	
+}

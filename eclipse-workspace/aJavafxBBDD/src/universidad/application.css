@@ -1,0 +1,41 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -fx-background-color: #f0f0f0; /* Color de fondo para toda la aplicación */
+}
+
+/* Estilos para los botones */
+.button {
+    -fx-background-color: #007bff; /* Color de fondo del botón */
+    -fx-text-fill: white; /* Color del texto del botón */
+}
+
+/* Estilos para los campos de texto */
+.text-field {
+    -fx-background-color: white; /* Color de fondo del campo de texto */
+}
+
+/* Estilos para el TableView */
+.table-view {
+    -fx-background-color: white; /* Color de fondo de la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+.table-cell {
+    -fx-alignment: CENTER; /* Alineación central del contenido de las celdas */
+}
+
+/* Estilos para las etiquetas */
+.label {
+    -fx-font-size: 14px; /* Tamaño de fuente de las etiquetas */
+    -fx-font-weight: bold; /* Fuente en negrita */
+}
+
+/* Estilos para el DatePicker */
+.date-picker {
+    -fx-background-color: white; /* Color de fondo del DatePicker */
+}
+
+/* Estilos para los TableColumn */
+.table-column {
+    -fx-alignment: CENTER; /* Alineación central del contenido de las columnas */
+}

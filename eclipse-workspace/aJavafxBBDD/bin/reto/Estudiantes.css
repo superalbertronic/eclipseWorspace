@@ -1,0 +1,58 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* reto.css */
+
+.root {
+    -fx-background-color: #F08080; /* Light Coral */
+}
+
+.button {
+    -fx-background-color: #3CB371; /* Medium Sea Green */
+    -fx-text-fill: #FFFFFF; /* White */
+}
+
+#anadir, #btnMostrar {
+    -fx-background-color: #4682B4; /* Steel Blue */
+}
+
+#borrar {
+    -fx-background-color: #FF6347; /* Tomato */
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #8A2BE2; /* Blue Violet */
+}
+
+#titulo, #autor, #paginas {
+    -fx-background-color: #FFFACD; /* LemonChiffon */
+}
+
+#nombreColumn, #correoColumn, #telefonoColumn, #cursoColumn, #fechaColumn {
+    -fx-background-color: #87CEEB; /* Sky Blue */
+}
+
+#tableViewEstudiante {
+    -fx-border-color: #2E8B57; /* Sea Green */
+    -fx-border-width: 2px;
+}
+
+#tableViewEstudiante .column-header {
+    -fx-background-color: #5F9EA0; /* Cadet Blue */
+}
+
+#tableViewEstudiante .column-header .label {
+    -fx-text-fill: #FFFFFF; /* White */
+}
+
+#tableViewEstudiante .table-row-cell {
+    -fx-background-color: #FFE4C4; /* Bisque */
+}
+
+#tableViewEstudiante .table-row-cell:odd {
+    -fx-background-color: #E0FFFF; /* Light Cyan */
+}
+
+#tableViewEstudiante .table-row-cell:selected {
+    -fx-background-color: #FFD700; /* Gold */
+}
+

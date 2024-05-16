@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;proyectocrearjar/src/application&apos;&#x0D;&#x0A;- Original project: &apos;ajavaxproyect&apos;&#x0D;&#x0A;- Destination element: &apos;proyectocrearjar/src/application&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Tema6Ejercicio12.MainApp.java&#x0D;&#x0A;     Tema6Ejercicio12.SimpleController.java&#x0D;&#x0A;     Ejercicio12.fxml" description="Copy elements" destination="=proyectocrearjar/src&lt;application" element1="src/Tema6Ejercicio12/Ejercicio12.fxml" element2="/src&lt;Tema6Ejercicio12{MainApp.java" element3="/src&lt;Tema6Ejercicio12{SimpleController.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1708538912547" units="2" version="1.0"/>
+</session>

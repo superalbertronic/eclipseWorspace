@@ -1,0 +1,50 @@
+
+package startrek;
+
+
+//Controlador: Gestiona las acciones del usuario y actualiza el modelo
+class ControladorStarTrek {
+private VistaStarTrek vista;
+private StarTrekModelo starTrekModelo;
+
+public ControladorStarTrek(VistaStarTrek vista) {
+   this.vista = vista;
+}
+
+public void agregarPersonaje(String nombre, String cargo, String raza) {
+   starTrekModelo = new StarTrekModelo(nombre, cargo, raza);
+   vista.mostrarMensaje("¡Personaje agregado correctamente, VIVA LA FEDERACIÓN!");
+}
+
+public void mostrarDetallesPersonaje() {
+   if (starTrekModelo != null) {
+       vista.mostrarMensaje("Nombre: " + starTrekModelo.getNombre());
+       vista.mostrarMensaje("Cargo: " + starTrekModelo.getCargo());
+       vista.mostrarMensaje("Raza : "+starTrekModelo.getRaza());
+   } else {
+       vista.mostrarMensaje("¡No hay ningún videojuego para mostrar!");
+   }
+}
+public void borrarRegistro() {
+	if(starTrekModelo!=null) {
+		starTrekModelo=null;
+		vista.mostrarMensaje("Registro borrado en verdad");
+	}else {
+		vista.mostrarMensaje("Canio en verdad no hay videojuegos, ave");
+	}
+
+	
+}
+public void modificarRegistro(String nombre, String cargo, String raza) {
+	if(starTrekModelo!=null) {
+		starTrekModelo.setCargo(cargo);
+		starTrekModelo.setNombre(nombre);
+		starTrekModelo.setRaza(raza);
+		vista.mostrarMensaje("la modificacion to wapa");
+	}else {
+		vista.mostrarMensaje("que no peudes modificar vieo");
+	}
+	
+
+}
+}

@@ -1,0 +1,5 @@
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-radius: 25;
+    -fx-background-color:#00FF00;
+}

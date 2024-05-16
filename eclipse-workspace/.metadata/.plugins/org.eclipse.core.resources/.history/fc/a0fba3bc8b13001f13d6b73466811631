@@ -1,0 +1,31 @@
+package diagramasdeclase1;
+
+//Clase Empleado que hereda de Persona
+public class Cliente extends Persona {
+ // Relación de asociación con Directivo
+private String email;
+	
+ // Constructor
+ public Cliente(String nombre, String email) {
+     this.nombre=nombre;
+     this.email=email;
+     
+ }
+
+ // Getter y setter específico de Empleado
+ public double getSalario() {
+     return salario;
+ }
+
+ public void setSalario(double salario) {
+     this.salario = salario;
+ }
+
+ public Directivo getSupervisor() {
+     return supervisor;
+ }
+
+ public void setSupervisor(Directivo supervisor) {
+     this.supervisor = supervisor;
+ }
+}

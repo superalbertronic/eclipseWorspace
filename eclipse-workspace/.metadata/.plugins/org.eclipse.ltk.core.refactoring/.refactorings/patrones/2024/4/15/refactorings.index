@@ -1,0 +1,22 @@
+1712820337622	Rename method 'operacion'
+1712820652828	Rename type 'Producto'
+1712820678434	Rename method 'venta'
+1712820700256	Rename type 'Electrodomestico'
+1712820720714	Rename type 'Producto'
+1712823609491	Copy compilation unit
+1712823629551	Rename type 'Silla'
+1712823642039	Rename type 'Sofa'
+1712823656055	Rename type 'FabricaMuebles'
+1712823669535	Rename type 'FabricaMueblesModernos'
+1712825598710	Copy compilation unit
+1712825682885	Rename type 'Silla1'
+1712825697602	Rename type 'Sofa1'
+1712846022761	Rename type 'FabricaMueblesModernos'
+1712846071140	Rename type 'SillaVictoriana'
+1712846083681	Rename type 'SofaVictoriano'
+1712846094011	Rename type 'SofaModerno'
+1712846114585	Rename type 'SillaModerna'
+1712846133226	Rename type 'SillaModerna'
+1713090538286	Delete element
+1713090618039	Rename type 'sinfactorizar'
+1713090822818	Move package

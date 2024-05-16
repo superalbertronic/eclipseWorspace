@@ -1,0 +1,62 @@
+<peliculas_marvel>
+    <pelicula>
+        <titulo>Iron Man</titulo>
+        <año>2008</año>
+        <director>Jon Favreau</director>
+        <actor_principal>Robert Downey Jr.</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Avengers: Endgame</titulo>
+        <año>2019</año>
+        <director>Anthony Russo, Joe Russo</director>
+        <actor_principal>Robert Downey Jr.</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Black Panther</titulo>
+        <año>2018</año>
+        <director>Ryan Coogler</director>
+        <actor_principal>Chadwick Boseman</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Guardians of the Galaxy</titulo>
+        <año>2014</año>
+        <director>James Gunn</director>
+        <actor_principal>Chris Pratt</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Thor: Ragnarok</titulo>
+        <año>2017</año>
+        <director>Taika Waititi</director>
+        <actor_principal>Chris Hemsworth</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Spider-Man: Homecoming</titulo>
+        <año>2017</año>
+        <director>Jon Watts</director>
+        <actor_principal>Tom Holland</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Captain America: The Winter Soldier</titulo>
+        <año>2014</año>
+        <director>Anthony Russo, Joe Russo</director>
+        <actor_principal>Chris Evans</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Doctor Strange</titulo>
+        <año>2016</año>
+        <director>Scott Derrickson</director>
+        <actor_principal>Benedict Cumberbatch</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Ant-Man</titulo>
+        <año>2015</año>
+        <director>Peyton Reed</director>
+        <actor_principal>Paul Rudd</actor_principal>
+    </pelicula>
+    <pelicula>
+        <titulo>Avengers: Infinity War</titulo>
+        <año>2018</año>
+        <director>Anthony Russo, Joe Russo</director>
+        <actor_principal>Robert Downey Jr.</actor_principal>
+    </pelicula>
+</peliculas_marvel>

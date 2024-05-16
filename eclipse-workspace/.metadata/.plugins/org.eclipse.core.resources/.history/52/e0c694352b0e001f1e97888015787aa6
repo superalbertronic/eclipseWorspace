@@ -1,0 +1,46 @@
+package startrek;
+
+import java.util.Scanner;
+
+
+//Clase principal (Main) para ejecutar el programa
+public class StarTrekMain {
+ public static void main(String[] args) {
+     VistaStarTrek vista = new VistaStarTrek();
+     ControladorStarTrek controlador = new ControladorStarTrek(vista);
+
+     Scanner scanner = new Scanner(System.in);
+     int opcion;
+
+     while(true) {
+         vista.mostrarMenu();
+         opcion = scanner.nextInt();
+
+         switch (opcion) {
+             case 1:
+                 controlador.mostrarDetallesPersonaje();
+                 break;
+             case 2:
+                 scanner.nextLine(); // Limpiar el buffer de entrada
+                 System.out.print("Ingrese el nombre del personaje: ");
+                 String nombre = scanner.nextLine();
+                 System.out.print("Ingrese el puesto del personaje: ");
+                 String cargo = scanner.nextLine();
+                 System.out.print("Ingrese la raza: ");
+                 String raza = scanner.nextLine();
+                 controlador.agregarPersonaje(nombre, cargo, raza);
+                 break;
+             case 3:
+            	 controlador.borrarRegistro();
+             case 4:
+                 System.out.println("Saliendo del programa...");
+                 break;
+                 
+             default:
+                 System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
+                 break;
+         }
+     } 
+  
+ }
+}

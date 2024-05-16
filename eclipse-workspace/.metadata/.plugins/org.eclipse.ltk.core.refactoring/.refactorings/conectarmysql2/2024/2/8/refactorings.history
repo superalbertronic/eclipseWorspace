@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MostrarDatos.java&apos; to &apos;springdatabase-2/src/main/java/com.example.modelo&apos;&#x0D;&#x0A;- Original project: &apos;conectarmysql2&apos;&#x0D;&#x0A;- Destination element: &apos;springdatabase-2/src/main/java/com.example.modelo&apos;&#x0D;&#x0A;- Original element: &apos;conectarmysql.MostrarDatos.java&apos;" description="Copy compilation unit" destination="=springdatabase-2/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.modelo" element1="/src&lt;conectarmysql{MostrarDatos.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1708602358850" units="1" version="1.0"/>
+</session>
